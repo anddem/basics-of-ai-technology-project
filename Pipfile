@@ -4,8 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+aiogram = "*"
+structlog = "*"
+opencv-python = "*"
 
 [dev-packages]
+
+[scripts]
+bot = "python main.py"
+train = "python train.py"
 
 [requires]
 python_version = "3.8"
